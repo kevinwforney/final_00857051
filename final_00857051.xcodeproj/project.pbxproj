@@ -3,23 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		437E0D4B2952B2690005BFCC /* ChampionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E0D4A2952B2690005BFCC /* ChampionRow.swift */; };
+		437E0D4F2952B33B0005BFCC /* Champion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E0D4E2952B33B0005BFCC /* Champion.swift */; };
+		437E0D552952B9E00005BFCC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 437E0D542952B9E00005BFCC /* Kingfisher */; };
+		55576B7B2956720F00265221 /* ChampionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55576B7A2956720F00265221 /* ChampionView.swift */; };
+		55576B9D295690AD00265221 /* Avigea.otf in Resources */ = {isa = PBXBuildFile; fileRef = 55576B9C295690AD00265221 /* Avigea.otf */; };
+		55576BAB2956933C00265221 /* Legendaire FREE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55576BAA2956933C00265221 /* Legendaire FREE.ttf */; };
+		55576BB02956943E00265221 /* Friz Quadrata Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55576BAD2956943E00265221 /* Friz Quadrata Italic.ttf */; };
+		55576BB12956943E00265221 /* Friz Quadrata Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55576BAE2956943E00265221 /* Friz Quadrata Regular.ttf */; };
+		55576BB22956943E00265221 /* Friz Quadrata Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 55576BAF2956943E00265221 /* Friz Quadrata Bold.otf */; };
+		55576BC2295BA68A00265221 /* Summoner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55576BC1295BA68A00265221 /* Summoner.swift */; };
+		55576BC6295BA6B500265221 /* SummonerFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55576BC5295BA6B500265221 /* SummonerFetcher.swift */; };
+		55576BCF295BABDE00265221 /* SummonerTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55576BCE295BABDE00265221 /* SummonerTab.swift */; };
+		55576BD4295BB11600265221 /* SummonerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55576BD3295BB11600265221 /* SummonerView.swift */; };
 		557F8874295219DF00F96307 /* final_00857051App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557F8873295219DF00F96307 /* final_00857051App.swift */; };
 		557F8876295219DF00F96307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557F8875295219DF00F96307 /* ContentView.swift */; };
 		557F8878295219E800F96307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557F8877295219E800F96307 /* Assets.xcassets */; };
 		557F887B295219E800F96307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557F887A295219E800F96307 /* Preview Assets.xcassets */; };
+		559EE94A29646E60006591D6 /* SummonerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559EE94929646E60006591D6 /* SummonerDetail.swift */; };
+		559EE97B2965058F006591D6 /* VTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 559EE97A2965058F006591D6 /* VTabView */; };
+		559EE983296516FE006591D6 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559EE982296516FE006591D6 /* ShareSheet.swift */; };
+		55A9BCDB2953923F0063241B /* FavoritesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9BCDA2953923F0063241B /* FavoritesTab.swift */; };
+		55A9BCDE295393C00063241B /* ChampionSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9BCDD295393C00063241B /* ChampionSaver.swift */; };
+		55A9BCE2295394280063241B /* ChampionFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9BCE1295394280063241B /* ChampionFetcher.swift */; };
+		55A9BCE6295395DD0063241B /* ChampionsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9BCE5295395DD0063241B /* ChampionsTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		437E0D4A2952B2690005BFCC /* ChampionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionRow.swift; sourceTree = "<group>"; };
+		437E0D4E2952B33B0005BFCC /* Champion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champion.swift; sourceTree = "<group>"; };
+		55576B7A2956720F00265221 /* ChampionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionView.swift; sourceTree = "<group>"; };
+		55576B9C295690AD00265221 /* Avigea.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avigea.otf; sourceTree = "<group>"; };
+		55576BAA2956933C00265221 /* Legendaire FREE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Legendaire FREE.ttf"; sourceTree = "<group>"; };
+		55576BAD2956943E00265221 /* Friz Quadrata Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Friz Quadrata Italic.ttf"; sourceTree = "<group>"; };
+		55576BAE2956943E00265221 /* Friz Quadrata Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Friz Quadrata Regular.ttf"; sourceTree = "<group>"; };
+		55576BAF2956943E00265221 /* Friz Quadrata Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Friz Quadrata Bold.otf"; sourceTree = "<group>"; };
+		55576BC1295BA68A00265221 /* Summoner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summoner.swift; sourceTree = "<group>"; };
+		55576BC5295BA6B500265221 /* SummonerFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummonerFetcher.swift; sourceTree = "<group>"; };
+		55576BCE295BABDE00265221 /* SummonerTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummonerTab.swift; sourceTree = "<group>"; };
+		55576BD3295BB11600265221 /* SummonerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummonerView.swift; sourceTree = "<group>"; };
 		557F8870295219DF00F96307 /* final_00857051.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = final_00857051.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		557F8873295219DF00F96307 /* final_00857051App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_00857051App.swift; sourceTree = "<group>"; };
 		557F8875295219DF00F96307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		557F8877295219E800F96307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		557F887A295219E800F96307 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		557F887C295219E800F96307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559EE94929646E60006591D6 /* SummonerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummonerDetail.swift; sourceTree = "<group>"; };
+		559EE982296516FE006591D6 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		55A9BCDA2953923F0063241B /* FavoritesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTab.swift; sourceTree = "<group>"; };
+		55A9BCDD295393C00063241B /* ChampionSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionSaver.swift; sourceTree = "<group>"; };
+		55A9BCE1295394280063241B /* ChampionFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionFetcher.swift; sourceTree = "<group>"; };
+		55A9BCE5295395DD0063241B /* ChampionsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +65,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559EE97B2965058F006591D6 /* VTabView in Frameworks */,
+				437E0D552952B9E00005BFCC /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55576B8B29568E9700265221 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				55576BAF2956943E00265221 /* Friz Quadrata Bold.otf */,
+				55576BAD2956943E00265221 /* Friz Quadrata Italic.ttf */,
+				55576BAE2956943E00265221 /* Friz Quadrata Regular.ttf */,
+				55576BAA2956933C00265221 /* Legendaire FREE.ttf */,
+				55576B9C295690AD00265221 /* Avigea.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		557F8867295219DF00F96307 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +104,22 @@
 		557F8872295219DF00F96307 /* final_00857051 */ = {
 			isa = PBXGroup;
 			children = (
+				55576B8B29568E9700265221 /* Fonts */,
 				557F8873295219DF00F96307 /* final_00857051App.swift */,
+				437E0D4E2952B33B0005BFCC /* Champion.swift */,
+				55A9BCE1295394280063241B /* ChampionFetcher.swift */,
+				55576BC1295BA68A00265221 /* Summoner.swift */,
+				55576BC5295BA6B500265221 /* SummonerFetcher.swift */,
+				55A9BCDD295393C00063241B /* ChampionSaver.swift */,
 				557F8875295219DF00F96307 /* ContentView.swift */,
+				55A9BCE5295395DD0063241B /* ChampionsTab.swift */,
+				437E0D4A2952B2690005BFCC /* ChampionRow.swift */,
+				55576B7A2956720F00265221 /* ChampionView.swift */,
+				55A9BCDA2953923F0063241B /* FavoritesTab.swift */,
+				55576BCE295BABDE00265221 /* SummonerTab.swift */,
+				55576BD3295BB11600265221 /* SummonerView.swift */,
+				559EE94929646E60006591D6 /* SummonerDetail.swift */,
+				559EE982296516FE006591D6 /* ShareSheet.swift */,
 				557F8877295219E800F96307 /* Assets.xcassets */,
 				557F887C295219E800F96307 /* Info.plist */,
 				557F8879295219E800F96307 /* Preview Content */,
@@ -85,6 +151,10 @@
 			dependencies = (
 			);
 			name = final_00857051;
+			packageProductDependencies = (
+				437E0D542952B9E00005BFCC /* Kingfisher */,
+				559EE97A2965058F006591D6 /* VTabView */,
+			);
 			productName = final_00857051;
 			productReference = 557F8870295219DF00F96307 /* final_00857051.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +182,10 @@
 				Base,
 			);
 			mainGroup = 557F8867295219DF00F96307;
+			packageReferences = (
+				437E0D532952B9E00005BFCC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				559EE9792965058F006591D6 /* XCRemoteSwiftPackageReference "swiftui-vertical-tab-view" */,
+			);
 			productRefGroup = 557F8871295219DF00F96307 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +201,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				557F887B295219E800F96307 /* Preview Assets.xcassets in Resources */,
+				55576BB12956943E00265221 /* Friz Quadrata Regular.ttf in Resources */,
+				55576BB02956943E00265221 /* Friz Quadrata Italic.ttf in Resources */,
+				55576BB22956943E00265221 /* Friz Quadrata Bold.otf in Resources */,
 				557F8878295219E800F96307 /* Assets.xcassets in Resources */,
+				55576B9D295690AD00265221 /* Avigea.otf in Resources */,
+				55576BAB2956933C00265221 /* Legendaire FREE.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +217,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A9BCE2295394280063241B /* ChampionFetcher.swift in Sources */,
+				559EE983296516FE006591D6 /* ShareSheet.swift in Sources */,
+				55576BD4295BB11600265221 /* SummonerView.swift in Sources */,
+				437E0D4F2952B33B0005BFCC /* Champion.swift in Sources */,
 				557F8876295219DF00F96307 /* ContentView.swift in Sources */,
+				55576BC6295BA6B500265221 /* SummonerFetcher.swift in Sources */,
+				55576B7B2956720F00265221 /* ChampionView.swift in Sources */,
+				559EE94A29646E60006591D6 /* SummonerDetail.swift in Sources */,
 				557F8874295219DF00F96307 /* final_00857051App.swift in Sources */,
+				55576BC2295BA68A00265221 /* Summoner.swift in Sources */,
+				55A9BCDB2953923F0063241B /* FavoritesTab.swift in Sources */,
+				55A9BCDE295393C00063241B /* ChampionSaver.swift in Sources */,
+				55576BCF295BABDE00265221 /* SummonerTab.swift in Sources */,
+				55A9BCE6295395DD0063241B /* ChampionsTab.swift in Sources */,
+				437E0D4B2952B2690005BFCC /* ChampionRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +418,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		437E0D532952B9E00005BFCC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		559EE9792965058F006591D6 /* XCRemoteSwiftPackageReference "swiftui-vertical-tab-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-vertical-tab-view.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		437E0D542952B9E00005BFCC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 437E0D532952B9E00005BFCC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		559EE97A2965058F006591D6 /* VTabView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 559EE9792965058F006591D6 /* XCRemoteSwiftPackageReference "swiftui-vertical-tab-view" */;
+			productName = VTabView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 557F8868295219DF00F96307 /* Project object */;
 }
