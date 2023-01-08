@@ -7,7 +7,7 @@
 
 import Foundation
 
-let KEY = "RGAPI-ac835108-a0f1-4174-a55e-3a104d613ec7"
+let KEY = "RGAPI-fbe77bec-380c-4d4d-a56c-cb2a8fa52113"
 class SummonerFetcher: ObservableObject {
     @Published var summoners = [Summoner]()
     @Published var masteries = [Mastery]()
